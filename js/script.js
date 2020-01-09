@@ -7,6 +7,7 @@
 
 //Chiedi all'utente il cognome
 var cognomePersona = prompt ("Inserisci il tuo cognome all'interno del box");
+cognomePersona = cognomePersona.charAt(0).toUpperCase() + cognomePersona.slice(1);
 // console.log(cognomePersona);
 
 // inseriscilo in un array con altri cognomi
